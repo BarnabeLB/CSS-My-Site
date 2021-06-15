@@ -1,0 +1,160 @@
+body{
+    
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 100%;
+    
+    
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem; /*16px = 100% = 1em % et em permettent une taille dynamique,// rem for root em : ne prend pas en compte les changements de size dans le body*/
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 50px auto 50px auto;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+}
+
+p{
+    color: #40514E;
+    font-weight: 700;
+    margin: auto auto 50px auto;
+   
+    
+
+}
+hr{
+    margin: 100px auto 100px auto;
+    border: none;
+    width: 4%;
+    border-top: 8px dotted lightgray;
+    background-color: white;
+}
+
+a{
+    color: #11999E;
+}
+/*///////////////////////////////////////////////////////////////////////////class/////////////////////////////////////////////////////////////////////////////*/
+.top-container{
+    line-height: 2;
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+
+
+}
+.bottom-container{
+    line-height: 4;
+    background-color: #66bfbf; ;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+    
+
+}
+
+.top-cloud{
+    position: absolute;
+    right: 450px;
+    top: 50px;
+    
+    
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 480px;
+    bottom: 300px;
+}
+
+.mountain{
+    margin-top: 110px;
+}
+
+
+.moi-miniature{
+    margin: 70px auto auto auto;
+    width: 10%;
+    border-radius: 100%;
+   
+}
+
+
+.phi-img{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+  
+}
+.note-img{
+    width: 15%;
+    float: right;
+    margin: 50px 0 20px 30px;
+}
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile{
+   
+    
+}
+.code-profile-description{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+.links{
+    word-spacing: 40px;
+}
+
+.contact-me{
+    margin: 50px auto 70px auto;
+}
+.contact-description{
+    width: 30%;
+    margin-top: 35px;
+}
+.mail-adress{
+    color: #EAF6F6;
+}
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #11999E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #66bfbf;
+    text-decoration: none;
+  }
